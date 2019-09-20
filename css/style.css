@@ -1,0 +1,123 @@
+
+body {
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  background-color: #dddddd;
+  background-image: url("../images/pidgeon-background.jpg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+
+table:first-child {
+  border-top-left-radius: 10px;
+}
+
+table:first-child {
+  border-top-right-radius: 10px;
+}
+
+table:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table:first-child {
+  border-bottom-right-radius: 10px;
+}
+
+thead:last-child {
+  border-top-right-radius: 10px;
+}
+
+table:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+th.colhead:first-child {
+  border-top-left-radius: 10px;
+}
+
+th.colhead:last-child {
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th.rowhead {
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+/*Table cells have centered text with a 2px black border on only one side, and 15px padding on all sides.
+Row headers have a 2px black border that matches the rest of the rows*/
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background: transparent;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: separate;
+  border-radius: 10px;
+}
+
+th.colhead {
+  border-top: none;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+a {
+  font-size: 18px;
+  color: #c12258;
+  text-decoration: underline;
+}
+
+:focus {
+  border: 1px solid red;
+}
+
+.colhead {
+  background-color: #7e0830;
+  color: white;
+  min-width: 150px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+tr:hover {
+  background-color: #fab9cf;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+}
